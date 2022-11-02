@@ -1,2 +1,0 @@
-## Personal bolg!!!
-- first commit
