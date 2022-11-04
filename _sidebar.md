@@ -1,2 +1,2 @@
 - 测试页面
-  - [读《齐物论》探寻真正的自我](test/test note.md)
+  - [齐物论](test/test.md)
