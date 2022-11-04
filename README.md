@@ -1,2 +1,3 @@
-# 个人博客
-- 长期摆烂，间歇性维护的个人博客 :)
+# Headline
+
+> An awesome project.
