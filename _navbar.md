@@ -1,5 +1,2 @@
-<!-- _navbar.md -->
-<!-- 导航栏 -->
-
 - 测试页面
-    - [齐物论](test/test.md)
+    - [齐物论](contents/test.md)
