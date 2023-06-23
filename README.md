@@ -5,4 +5,4 @@
 
 ---
 
-[测试文档](contents/test.md)
+[测试文档](https://changsun20.github.io/#/contents/test)
