@@ -4,4 +4,4 @@
 
 ---
 
-等不及了？先看看[测试文档](contents/test.md)吧！
+[测试文档](contents/test.md)
