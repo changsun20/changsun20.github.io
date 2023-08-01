@@ -1,2 +1,4 @@
-- 测试页面
-    - [齐物论](contents/test.md)
+- 个人简介
+    - [联系方式](contents/self.md)
+- 哲学
+    - [庄子的智慧](contents/zhuangzi.md)
