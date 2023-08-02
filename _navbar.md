@@ -1,4 +1,2 @@
 - 个人简介
     - [联系方式](contents/self.md)
-- 哲学
-    - [庄子的智慧](contents/zhuangzi.md)
