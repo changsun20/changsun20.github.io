@@ -1,2 +1,1 @@
-- 个人简介
-    - [联系方式](contents/self.md)
+- [关于我们](contents/self.md)
