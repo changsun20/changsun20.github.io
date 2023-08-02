@@ -4,4 +4,4 @@
 
 ---
 
-[测试文档](contents/test.md)
+[个人简介](/contents/self.md)
