@@ -12,4 +12,4 @@
 
 ---
 
-如果你对我们的研究感兴趣，请访问：[报告](/contents/report.pdf)
+如果你对我们的研究感兴趣，请访问：[报告](/contents/showreport.md)
