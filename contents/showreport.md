@@ -1,5 +1,0 @@
-```pdf
-
-/contents/report.pdf
-
-```
