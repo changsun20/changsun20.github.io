@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------
+# Services List Section
+--------------------------------------------------------------*/
+.services-list {
+  .service-item {
+    position: relative;
+
+    .icon {
+  
+      i {
+        font-size: 32px;
+        line-height: 0;
+        margin-right: 20px;
+        color: lighten($secondary, 20);
+      }
+  
+    }
+  
+    .title {
+      font-weight: 700;
+      margin-bottom: 5px;
+      font-size: 18px;
+      a {
+        color: var(--color-secondary);
+
+        &:hover {
+          color: lighten($secondary, 20);
+        }
+      }
+  
+    }
+  
+    .description {
+      line-height: 24px;
+      font-size: 14px;
+    }
+
+  }
+
+}

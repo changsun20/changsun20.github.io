@@ -1,0 +1,131 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+  font-size: 14px; 
+
+  .footer-content {
+    background-color: lighten($secondary, 79);
+    background-size: contain;
+    padding: 60px 0 30px 0;
+
+    .footer-info {
+      margin-bottom: 30px;
+      .logo {
+        line-height: 0;
+        margin-bottom: 25px;
+        img {
+          max-height: 40px;
+          margin-right: 6px;
+        }
+    
+        span {
+          font-size: 30px;
+          font-weight: 700;
+          letter-spacing: 1px;
+          color: var(--color-secondary);
+          font-family: var(--font-secondary);
+          margin-top: 3px;
+        }
+    
+      }
+
+      p {
+        font-size: 15px;
+        margin-bottom: 0;
+        font-family: var(--font-primary);
+        color: var(--color-secondary);
+      }
+    }
+
+    .social-links {
+      a {
+        font-size: 14px;
+        line-height: 0;
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        color: rgba($secondary, .5);
+        margin-right: 10px;
+        transition: 0.3s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-primary);
+        color: #fff;
+        border-radius: 50px;
+        &:hover {
+          background-color: lighten($secondary, 20);
+        }
+      }
+    }
+
+    h4 {
+      font-size: 16px;
+      font-weight: bold;
+      color: lighten($secondary, 10);
+      position: relative;
+      padding-bottom: 12px;
+    }
+
+    .footer-links {
+      margin-bottom: 30px;
+      ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        i {
+          margin-right: 2px;
+          color: var(--color-primary);
+          font-size: 16px;
+          line-height: 0;
+        }
+
+        li {
+          padding: 10px 0;
+          &:first-child {
+            padding-top: 0;
+          }
+          display: flex;
+          align-items: center;
+        }
+
+        a {
+          color: lighten($secondary, 15);
+          transition: 0.3s;
+          display: inline-block;
+          line-height: 1;
+          &:hover {
+            color: var(--color-primary);
+          }
+        }
+      }
+    }
+
+    .footer-contact {
+      p {
+        line-height: 26px;
+        color: var(--color-secondary);
+      }
+    }
+
+  }
+
+  .footer-legal {
+    background: #fff;
+    padding: 30px 0;
+    .copyright {
+      text-align: center;
+      color: var(--color-secondary);
+    }
+  
+    .credits {
+      padding-top: 4px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--color-secondary);
+    }
+  }
+
+}

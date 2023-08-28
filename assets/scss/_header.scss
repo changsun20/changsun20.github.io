@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 24px 0;
+  @media (max-width: 1200px) {
+    padding: 12px 0;
+  }
+
+  &.sticked {
+    background: rgba($secondary, 0.9);
+    padding: 12px 0;
+  }
+
+  .logo {
+    img {
+      max-height: 40px;
+      margin-right: 6px;
+    }
+    
+    h1 {
+      font-size: 30px;
+      font-weight: 700;
+      color: #fff;
+      font-family: var(--font-secondary);
+      margin: 0;
+    }
+
+  }
+}

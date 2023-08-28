@@ -1,0 +1,110 @@
+/*--------------------------------------------------------------
+# Blog Comments
+--------------------------------------------------------------*/
+
+.blog {
+  
+  .comments {
+    margin-top: 30px;
+
+    .comments-count {
+      font-weight: bold;
+    }
+
+    .comment {
+      margin-top: 30px;
+
+      position: relative;
+
+      .comment-img {
+        margin-right: 14px;
+        img {
+          width: 60px;
+        }
+      }
+
+      h5 {
+        font-size: 16px;
+        margin-bottom: 2px;
+        a {
+          font-weight: bold;
+          color: var(--color-default);
+          transition: 0.3s;
+          &:hover {
+            color: var(--color-primary);
+          }
+        }
+
+        .reply {
+          padding-left: 10px;
+          color: var(--color-secondary);
+          i {
+            font-size: 20px;
+          }
+        }
+
+      }
+
+      time {
+        display: block;
+        font-size: 14px;
+        color: rgba($secondary, .8);
+        margin-bottom: 5px;
+      }
+
+
+      &.comment-reply {
+        padding-left: 40px;
+      }
+    }
+
+    .reply-form {
+      margin-top: 30px;
+      padding: 30px;
+      box-shadow: 0 4px 16px rgba(#000, .1);
+      h4 {
+        font-weight: bold;
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      input {
+        border-radius: 4px;
+        padding: 10px 10px;
+        font-size: 14px;
+        &:focus {
+          box-shadow: none;
+          border-color: rgba($primary, .8);
+        }
+      }
+
+      textarea {
+        border-radius: 4px;
+        padding: 10px 10px;
+        font-size: 14px;
+        &:focus {
+          box-shadow: none;
+          border-color: rgba($primary, .8);
+        }
+      }
+
+      .form-group {
+        margin-bottom: 25px;
+      }
+
+      .btn-primary {
+        border-radius: 4px;
+        padding: 10px 20px;
+        border: 0;
+        background-color: var(--color-secondary);
+        &:hover {
+          background-color: rgba($secondary, .8);
+        }
+      }
+    }
+  }
+
+}

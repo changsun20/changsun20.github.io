@@ -1,0 +1,111 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/hero-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 120px 0;
+  z-index: 3;
+
+  @media (min-width: 1034px) {
+    &:after {
+      position: absolute;
+      content: "";
+      width: 40%;
+      background: var(--color-secondary);
+      top: 0;
+      bottom: 0;
+    }
+  }
+
+  &:before {
+    position: absolute;
+    content: "";
+    background: rgba($secondary, 0.6);
+    inset: 0;
+    @media (max-width: 1034px) {
+      background: rgba($secondary, 0.7);
+    }
+  }
+
+  .container {
+    z-index: 1;
+  }
+
+  @media (min-width: 1365px) {
+    background-attachment: fixed;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    font-family: var(--font-secondary);
+  }
+
+  blockquote {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: var(--font-default);
+    border-left: 2px solid var(--color-primary);
+    margin: 40px 0;
+    
+  }
+
+  .btn-get-started {
+    font-family: var(--font-secondary);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: var(--color-primary);
+    &:hover {
+      background: rgba($primary, .8);
+    }
+  }
+
+  .btn-watch-video {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    color: rgba(#fff, .7);
+    font-weight: 600;
+
+    i {
+      color: var(--color-primary);
+      font-size: 32px;
+      transition: 0.3s;
+      line-height: 0;
+      margin-right: 8px;
+    }
+
+    &:hover {
+      color: #fff;
+      i {
+        color: lighten($primary, 10);
+      }
+    }
+  }
+
+  @media (max-width: 640px) {
+    h2 {
+      font-size: 36px;
+      line-height: 1;
+    }
+
+    .btn-get-started, .btn-watch-video {
+      font-size: 13px;
+    }
+  }
+
+}

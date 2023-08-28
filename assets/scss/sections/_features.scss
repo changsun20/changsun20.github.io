@@ -1,0 +1,81 @@
+/*--------------------------------------------------------------
+# Features Section
+--------------------------------------------------------------*/
+.features {
+
+  padding-bottom: 0;
+
+  h3 {
+    color: var(--color-secondary);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .icon-list {
+
+    i {
+      margin-right: 10px;
+      font-size: 24px;
+      line-height: 1.2;
+    }
+
+    span {
+      font-size: 18px;
+      color: lighten($secondary, 10);
+    }
+  }
+
+  .phone-wrap {
+    position: absolute;
+    right: 0;
+    @media (max-width: 768px) {
+      position: relative;
+    }
+    img {
+      width: 340px;
+      @media (max-width: 992px) {
+        margin-top: 30px;
+      }
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+  }
+
+  .details {
+    margin-top: 80px;
+    padding: 120px 0;
+    background-color: lighten($secondary, 79);
+
+    h4 {
+      color: var(--color-secondary);
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .btn-get-started {
+      font-family: var(--font-primary);
+      display: inline-block;
+      font-weight: 500;
+      font-size: 15px;
+      letter-spacing: 1px;
+      padding: 10px 32px;
+      border-radius: 50px;
+      transition: 0.5s;
+      background-color: var(--color-primary);
+      color: #fff;
+      &:hover {
+        background: darken($primary, 10);
+      }
+    }
+
+  } 
+
+}

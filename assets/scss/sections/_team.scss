@@ -1,0 +1,85 @@
+/*--------------------------------------------------------------
+# Team Section
+--------------------------------------------------------------*/
+.team {
+  .team-member {
+    overflow: hidden;
+    background: #fff;
+    
+    .member-img {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .social {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      height: 40px;
+      opacity: 0;
+      transition: ease-in-out 0.3s;
+      background: rgba(255, 255, 255, 0.85);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      a {
+        transition: color 0.3s;
+        color: lighten($secondary, 15);
+        margin: 0 10px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        i {
+          line-height: 0;
+        }
+
+        &:hover {
+          color: var(--color-primary);
+        }
+
+      }
+
+      i {
+        font-size: 18px;
+        margin: 0 2px;
+      }
+    }
+
+    .member-info {
+      padding: 25px 15px 0 15px;
+      text-align: center;
+      h4 {
+        font-weight: 700;
+        margin-bottom: 5px;
+        font-size: 18px;
+        color: var(--color-secondary);
+      }
+  
+      span {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        color: #6c757d;
+      }
+
+      p {
+        font-style: italic;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6c757d;
+      }
+
+    }
+
+    &:hover {
+
+      .social {
+        opacity: 1;
+      }
+    }
+
+  }
+}
